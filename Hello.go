@@ -9,6 +9,8 @@ import (
 
 func main(){
 	hello()
+	
+	for{
 	exibirMenu()
 	comando := lerComando()
 
@@ -24,6 +26,7 @@ func main(){
 		fmt.Println("Não sei o que tu tá dizendo")
 		os.Exit(-1)
 	}
+}
 }
 
 func hello(){
